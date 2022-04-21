@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "singularName": "homepage",
+    "pluralName": "homepages",
+    "displayName": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "HeaderRubrik": {
+      "type": "string",
+      "required": true
+    },
+    "FeaturedText": {
+      "type": "enumeration",
+      "enum": [
+        "Blogpost",
+        "NewsArticle"
+      ]
+    },
+    "backgroundColor": {
+      "type": "string"
+    },
+    "componentColor": {
+      "type": "enumeration",
+      "enum": [
+        "red",
+        "blue",
+        "green",
+        "yellow"
+      ]
+    }
+  }
+}
